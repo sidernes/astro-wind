@@ -1,5 +1,26 @@
+/* public/assets/fonts/Gotham-Font/Gotham-Light.otf */
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../../../public/assets/fonts/Gotham-Font/GothamMedium.ttf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBold';
+  src: url('../../../public/assets/fonts/Gotham-Font/Gotham-Bold.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Minimal';
+  src: url('../../../public/assets/fonts/minimal.otf') format('opentype');
+  font-style: normal;
+}
+
 .hero {
-  background-image: url('../images/landing01.jpg');
+  /* background-image: url('../images/landing01.jpg'); */
   height: 100vh; /* Ajusta la altura del hero al 100% de la ventana gráfica */
   background-position: center;
   background-repeat: no-repeat;
@@ -32,4 +53,20 @@
 }
 .hero button:hover {
   background-color: #f2f2f2;
+}
+
+.gotham-medium {
+  font-family: 'GothamMedium';
+}
+
+.gotham-bold {
+  font-family: 'GothamBold';
+}
+
+.minimal {
+  font-family: 'Minimal';
+}
+
+.text-16xl {
+  font-size: 10rem;
 }

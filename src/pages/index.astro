@@ -8,9 +8,14 @@ const metadata = {
 ---
 
 <SimplePageLayout metadata={metadata}>
-  <div class="hero">
-    <h1>Bienvenido a Nuestro Sitio</h1>
+  <div class="hero bg-white dark:bg-black text-black dark:text-white">
+    <!-- <h1 class="gotham-medium">Bienvenido a SEEKSV Nuestro Sitio</h1>
+    <h1 class="gotham-bold">Bienvenido a SEEKSV Nuestro Sitio</h1> -->
+    <span class="minimal text-16xl text-black dark:text-white">SeekSV</span>
+
     <p>Descubre nuestros servicios y cómo podemos ayudarte a alcanzar tus metas.</p>
-    <button onclick="alert('¡Gracias por tu interés!')">Contáctanos</button>
+    <button class="bg-blue-500 text-white dark:bg-blue-300 dark:text-black" onclick="alert('¡Gracias por tu interés!')"
+      >Contáctanos</button
+    >
   </div>
 </SimplePageLayout>
